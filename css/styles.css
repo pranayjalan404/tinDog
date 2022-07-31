@@ -1,0 +1,188 @@
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.dogs {
+  font-family: "Montserrat-Black", sans-serif;
+
+  size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  font-size: 3.5rem;
+}
+
+.h3 {
+  color: black;
+  font-weight: 800;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.p {
+  color: grey;
+}
+
+.container-fluid {
+  padding: 3% 15% 2%;
+}
+
+.body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* navigation bar */
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: 800;
+  position: relative;
+  right: 120px;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-size: large;
+  font-weight: lighter;
+}
+
+/* download buttons */
+
+.apple-btn,
+.gpay-btn {
+  margin: 5% 3% 0 5%;
+  position: relative;
+  right: 25px;
+  bottom: 10px;
+}
+
+.iphoneimg {
+  margin: auto auto -15rem 50px;
+
+  transform: rotate(25deg);
+
+  width: 60%;
+}
+
+/* features */
+
+#features {
+  text-align: center;
+
+  padding: 7% 15%;
+
+  background-color: #fff;
+
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+/* testimonials */
+
+#testimonials {
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.test {
+  font-family: "Monserrat-Bold";
+  font-weight: bolder;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 10px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* pricing section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.colum-cards {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1000px) {
+  .iphoneimg {
+    position: static;
+    transform: rotate(0);
+    z-index: 1;
+  }
+
+  .dogs {
+    text-align: center;
+  }
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+.cta {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  padding: 5%;
+  margin: 0 25%;
+}
+.apple-btn1,
+.gpay-btn1 {
+  margin: 0 1%;
+  margin-bottom: 5%;
+}
+
+#footer {
+  text-align: center;
+  margin: 5% 0;
+}
+
+.t,
+.f,
+.i,
+.e {
+  margin: 0 1% 1%;
+}
+
+.copyright {
+  margin-top: 1%;
+  font-size: 80%;
+}
